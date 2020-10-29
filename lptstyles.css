@@ -1,0 +1,33 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    font-family: source 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    min-height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0.1,0.1)) url(12a-marquee-alexander-andrews-unsplash);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body h1{
+    font-size: 5.3rem;
+    text-orientation: uppercase;
+    font-weight: 300;
+}
+body p{
+    font-size: 21px;
+    letter-spacing: 12px;
+    max-width: 80%;
+    margin: 1.7rem auto;
+    text-orientation: upright;
+}
+body .btn: hover{
+    opacity:.7;
+    box-shadow: (0,0,12px crimson;
+}
